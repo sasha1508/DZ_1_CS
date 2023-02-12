@@ -44,7 +44,7 @@ internal class Program
         int b = Convert.ToInt32(Console.ReadLine());
         if(a>b)         {Console.WriteLine("Число 'a'(" + a + ") блоьшее, число 'b'(" + b + ") меньшее.");}
         else if (a<b)   {Console.WriteLine("Число 'b'(" + b + ") блоьшее, число 'a'(" + a + ") меньшее.");}
-        else            {Console.WriteLine("Числf 'a'(" + b + ") и 'b'(" + a + ") равны.");}
+        else            {Console.WriteLine("Числf 'a'(" + a + ") и 'b'(" + b + ") равны.");}
     }
     private static void Zadacha4()
     {
