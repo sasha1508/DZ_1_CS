@@ -32,7 +32,9 @@ internal class Program
         else if (ZadachaNumber == 4)  {Zadacha4();}
         else if (ZadachaNumber == 6)  {Zadacha6();}    
         else if (ZadachaNumber == 8)  {Zadacha8();}  
-        else {Console.WriteLine("Введён номер, не соответствующий задаче.");;}    
+        else {Console.WriteLine("Введён номер, не соответствующий задаче.");;}
+        Console.Write("Нажми любую клавишу");
+        Console.Read();
     }
 
     private static void Zadacha2()
